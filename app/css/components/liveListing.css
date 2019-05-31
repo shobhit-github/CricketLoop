@@ -1,0 +1,64 @@
+:global {
+
+&
+.sub-title {
+    background-color: #ccc;
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+}
+
+&
+.min-sized-table {
+
+&
+.cric-pan-td {
+    width: 400px;
+
+&
+.team-flg {
+    width: 70px !important;
+}
+
+}
+}
+&
+.flag-img {
+    max-width: 80px;
+    position: relative;
+}
+
+&
+.listing-group {
+    display: block;
+    position: relative;
+    padding: 0px;
+    padding-bottom: 15px;
+
+&
++ .listing-group {
+    border-top: 1px solid #ccc;
+}
+
+}
+}
+.anger_listing {
+    display: inline-block;
+    position: relative;
+
+&
+:hover {
+    text-decoration: none;
+}
+
+}
+.listing-live {
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.cric-pan-score {
+    text-align: right;
+    color: #000000;
+}

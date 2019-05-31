@@ -1,0 +1,136 @@
+:global {
+
+&
+.valign-table {
+
+&
+th {
+    vertical-align: middle !important;
+}
+
+&
+td {
+    vertical-align: middle !important;
+}
+
+}
+&
+.content-listing {
+    clear: both;
+}
+
+&
+.content-listing:not(:last-child) {
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    float: left;
+}
+
+&
+.content-listing-image, .content-listing-head {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+&
+.content-listing-image {
+    clear: both;
+}
+
+&
+.content-listing-head a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+&
+.content-listing-content {
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    font-weight: 500;
+}
+
+&
+.listing {
+    display: table;
+    width: 100%;
+
+&
+.content-listing-image {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+
+&
+.img-news {
+    height: 125px;
+    width: 220px;
+    position: relative;
+    display: table-cell;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+&
+.content-data {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    padding: 0px 7px;
+}
+
+}
+&
+.listing + .listing {
+    border-top: 1px solid #cccccc;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+}
+
+.seprate-vs {
+    font-weight: 700;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #0978c9;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: #2487d6;
+}
+
+.seprate-vs.small {
+    font-weight: 700;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #0978c9;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: #2487d6;
+    vertical-align: middle;
+}

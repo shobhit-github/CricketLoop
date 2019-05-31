@@ -1,0 +1,412 @@
+
+.cric-pan-score {
+    text-align: right;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.subtab-score {
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 100px;
+    color: #000000;
+}
+
+.tab-cric {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+
+&
+.tab-left {
+    float: none !important;
+    margin-bottom: 10px;
+}
+
+}
+.tab-cric li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px 7px;
+    margin: 0px;
+}
+
+.tab-cric li a {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #8c8c8c;
+    font-weight: 700;
+}
+
+.tab-cric li {
+
+&
+.active a,
+
+&
+a:focus,
+
+&
+a:hover {
+    color: #000000;
+    background-color: transparent !important;
+}
+
+}
+:global {
+
+&
+.timmer-count {
+    color: #FF5722;
+    padding: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+&
+.match-timer-text {
+    color: #000000;
+    font-size: 16px;
+}
+
+&
+.v-align {
+
+&
+tr {
+
+&
+th {
+    vertical-align: middle !important;
+}
+
+&
+td {
+    vertical-align: middle !important;
+}
+
+}
+&
+.img-flg-board ~ .h4 {
+    vertical-align: middle;
+}
+
+}
+&
+.over-ball {
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    background-color: #cccccc;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+
+&
+.six {
+    background-color: #8b0dff;
+    color: #fff;
+}
+
+&
+.four {
+    background-color: #630460;
+    color: #fff;
+}
+
+&
+.five {
+    background-color: #88073d;
+    color: #fff;
+}
+
+&
+.three {
+    background-color: #ff9933;
+    color: #fff;
+}
+
+&
+.two {
+    background-color: #fff200;
+    color: #000;
+}
+
+&
+.one {
+    background-color: #0067a9;
+    color: #fff;
+}
+
+&
+.zero {
+    background-color: #128807;
+    color: #fff;
+}
+
+&
+.wicket {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+}
+&
+.navigate-arrow {
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    background-color: #e4e4e4;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+
+&
+:hover {
+    background-color: #0067a8;
+    color: #ffffff;
+}
+
+}
+&
+.squad-bx {
+    padding-top: 15px !important;
+    text-align: center;
+
+&
+img.img-responsive {
+    margin: 0px auto;
+    display: block;
+}
+
+}
+&
+.v-line::before {
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+    content: '';
+    width: 1px;
+}
+
+&
+.img-flg-sm {
+    width: 35px;
+}
+
+&
+.subtab-pan li {
+    padding: 0px;
+    width: 50%;
+
+&
+.active {
+    background-color: #e6e4e4;
+}
+
+&
+> a {
+    width: 100%;
+
+&
+p {
+    margin-bottom: 0px;
+}
+
+}
+}
+&
+.tab-cric {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+
+&
+.tab-left {
+    float: none !important;
+    margin-bottom: 10px;
+}
+
+}
+&
+.tab-cric li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+&
+.tab-cric li a {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #8c8c8c;
+    font-weight: 700;
+}
+
+&
+.tab-cric li {
+
+&
+.active a,
+
+&
+a:focus,
+
+&
+a:hover {
+    color: #000000;
+    background-color: transparent !important;
+}
+
+}
+&
+.ads-image {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+&
+.com-ovr {
+    min-width: 50px;
+    display: block;
+    position: relative;
+    float: left;
+    font-weight: 700;
+}
+
+&
+.com-cmntry {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+&
+.cmnty-bx {
+    display: block;
+    position: relative;
+    margin: 5px 0px;
+
+&
+.form-group {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+}
+&
+.score-table {
+    margin-bottom: 5px;
+
+&
+thead {
+
+&
+th {
+    background-color: #0067a8;
+    color: #ffffff;
+    text-align: center;
+}
+
+}
+&
+tbody {
+
+&
+td {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+}
+}
+&
+.subsocre {
+    font-size: 20px;
+}
+
+&
+.img-flg-board {
+    width: 50px;
+}
+
+&
+.livematch-head {
+    border-left-color: #1f9415 !important;
+}
+
+&
+#innings_tab,
+
+&
+#innings_tab_highlights {
+
+&
+.nav-tabs {
+    border: none;
+    margin-bottom: 15px;
+
+&
+li {
+
+&
+.active a {
+    background-color: #0067a8;
+    color: #ffffff;
+}
+
+&
+a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+
+&
+:focus,
+
+&
+:hover,
+
+&
+:active {
+    outline: none;
+}
+
+}
+}
+}
+}
+
+}
+.runrate {
+    padding: 0px 5px !important;
+}
+

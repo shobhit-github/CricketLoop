@@ -1,0 +1,589 @@
+@import 'settings';
+@import 'common/layout';
+@import 'common/typography';
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800");
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--fontMontserrat);
+    background-color: #ededed;
+    font-weight: 500 !important;
+}
+
+.app {
+    @apply --box;
+    height: 100%;
+    font-weight: normal;
+    font-smoothing: antialiased;
+    font-weight: 500 !important;
+}
+
+.footer-cric {
+    background-color: #000000;
+    padding: 15px;
+    display: block;
+    position: relative;
+    float: left;
+    color: #ffffff;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Add your global styles below... */
+
+/* ex:
+
+:global {
+  & .red { color: red; }
+  & .blue { color: blue; }
+}
+
+*/
+
+:global {
+
+&
+.h1,
+
+&
+.h2,
+
+&
+.h3,
+
+&
+.h4,
+
+&
+.h5,
+
+&
+.h6 {
+    font-weight: 700;
+}
+
+&
+.newsimg {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+&
+.btn-cntl {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -15px;
+
+&
+.pre-btn {
+    left: 20px;
+}
+
+&
+.nxt-btn {
+    right: 15px;
+}
+
+}
+&
+.slick-next {
+    right: 0px !important;
+}
+
+&
+.seperateName > span:not(:last-child)::after {
+    content: ', ';
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+
+&
+.submenu-nav.open .dropdown-toggle {
+    background-color: #2487d6 !important;
+    background-image: none !important;
+}
+
+&
+.tab-items.active a {
+    color: #000000;
+    background-color: transparent !important;
+}
+
+&
+.text-warning {
+    color: #f87c30;
+}
+
+&
+.text-info {
+    color: #43a7d8;
+}
+
+&
+.text-primary {
+    color: #0978c9;
+}
+
+&
+.text-danger {
+    color: #e45451;
+}
+
+&
+.text-sucess {
+    color: #44b927;
+}
+
+&
+.text-black {
+    color: #000000;
+}
+
+&
+.text-fade {
+    color: #a1a1a1;
+}
+
+&
+.weigh-text-sm {
+    font-weight: 500;
+}
+
+&
+.btn-theme {
+    background-color: #0978c9;
+    color: #ffffff !important;
+    background-image: none;
+
+&
+.active {
+    background-color: #2487d6 !important;
+}
+
+&
+:hover {
+    background-color: #2487d6 !important;
+}
+
+&
+:focus {
+    background-color: #2487d6 !important;
+}
+
+}
+&
+.fade-text {
+    color: #9e9c9c;
+}
+
+&
+.icons-social {
+    font-family: FontAwesome !important;
+    font-size: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+&
+.inline-inputs {
+    max-width: 300px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+&
++ .inline-inputs {
+    margin-left: 10px;
+}
+
+}
+
+&
+.slick-slide {
+
+&
+.cric-pan-tr {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+
+&
+.cric-pan-td {
+    display: block;
+    position: relative;
+    padding: 7px;
+    float: left
+}
+
+}
+}
+&
+.slick-slide .cric-pan-table {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    display: block;
+}
+
+&
+.top-slider-statusbx {
+    padding: 5px 7px;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+&
+.live-icon {
+    height: 5px;
+    width: 5px;
+    background-color: #44b927;
+    border-radius: 100px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+&
+.padzero {
+
+    padding: 0px !important;
+}
+
+&
+.icon-rel-right {
+    position: relative;
+    float: right !important;
+    color: #000000;
+}
+
+&
+.slick-next:before {
+    color: #0067a8 !important;
+}
+
+&
+.slick-slider {
+    background-color: #ededed;
+}
+
+&
+.logo-first {
+    color: #000000;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+}
+
+&
+a:hover .logo-first {
+    color: #ffffff
+}
+
+&
+.team-flg {
+    width: 70px;
+}
+
+&
+.custom-table {
+    border: 1px solid transparent;
+    margin-bottom: 5px;
+    width: 100%;
+
+&
+tr th {
+    background-color: #f5f5f5;
+    border-bottom: 0px solid #ddd !important;
+}
+
+&
+tfooter td {
+    border-top: 1px solid #ddd;
+}
+
+}
+&
+.container {
+    position: relative;
+}
+
+&
+.panel-cric {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+
+&
+.panel-heading {
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-image: none;
+    border-left: 4px solid #0978c9;
+    padding: 20px 15px;
+    font-weight: 600;
+}
+
+&
+.panel-body {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    display: block;
+    position: relative;
+    padding: 15px;
+}
+
+}
+
+&
+.btn-extra {
+    font-size: 12px;
+    font-weight: 700;
+    color: #3ca9fc;
+}
+
+.icons-social {
+    font-family: FontAwesome !important;
+    font-size: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+&
+.social-icon-cric-fb {
+    color: #0c70b8;
+}
+
+&
+.social-icon-cric-tw {
+    color: #3ca9fc;
+}
+
+&
+.social-icon-cric-ins {
+    color: #754b15;
+}
+
+&
+.icons-social ~ label {
+    color: #000000;
+    cursor: pointer;
+}
+
+&
+.content-sect {
+    padding: 0px;
+}
+
+&
+.sub-head {
+    border-top: 1px solid #cccccc;
+    padding: 10px;
+}
+
+&
+.marsm {
+    margin: 5px 0px;
+}
+
+&
+.v-aling td,
+
+&
+.v-aling th {
+    vertical-align: middle !important;
+}
+
+&
+.marg0 {
+    margin: 0px;
+}
+
+&
+.border-btm {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 15px !important;
+}
+
+&
+.preLoader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 100000;
+    background-image: url('../images/preload.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding-top: 25%;
+    text-align: center;
+}
+
+&
+.preLoaderInner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 100000;
+    background-image: url('../images/preload.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+
+&
+.contentLoader {
+    min-height: 320px;
+}
+
+}
+&
+.clearfix-potition {
+    position: relative;
+}
+
+&
+.navDrop {
+
+&
+.dropdown-menu li {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+
+&
+a {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+}
+}
+
+&
+.highlights-head {
+    background: #129FE7;
+    color: #fff;
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width: 991px) {
+    :global {
+
+& .navbar-header {
+      float: none;
+  }
+
+& .navbar-left, .navbar-right {
+      float: none !important;
+  }
+
+& .navbar-toggle {
+      display: block;
+  }
+
+& .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+& .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+
+& .navbar-collapse.collapse {
+      display: none !important;
+  }
+
+& .navbar-nav {
+      float: none !important;
+      margin-top: 7.5px;
+
+      max-height: 300px;
+      overflow-y: auto !important;
+  }
+
+& .navbar-nav > li {
+      float: none;
+  }
+
+& .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+& .collapse.in {
+      display: block !important;
+  }
+
+& .nav-grid {
+      display: block;
+      position: relative;
+      clear: both;
+  }
+
+}
+
+}
+
+@media (max-width: 767px) {
+    :global {
+
+& .resp-fluid.col-sm-5 {
+      display: none;
+  }
+}
+
+&
+.cric-pan-tr {
+
+&
+.cric-pan-td {
+    display: block;
+    position: relative;
+    padding: 7px;
+    float: left;
+    width: 100%;
+}
+
+}
+&
+.container {
+    position: relative;
+}
+
+}

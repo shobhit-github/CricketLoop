@@ -1,0 +1,17 @@
+:global {
+
+&
+.vertical-table {
+
+&
+tr {
+
+&
+td:first-child {
+    background-color: #f5f3f3;
+    font-weight: 700;
+}
+
+}
+}
+}

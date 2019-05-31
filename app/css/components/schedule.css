@@ -1,0 +1,131 @@
+.tab-content {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    display: block;
+    position: relative;
+    padding: 15px;
+}
+
+.btn-extra {
+    font-size: 12px;
+    font-weight: 700;
+    color: #0978c9;
+}
+
+.radio-btn {
+    border: none;
+    border-radius: 0px;
+    padding: 10px 15px;
+}
+
+.table-td {
+    display: inline-block;
+    position: relative;
+}
+
+.custome-table td {
+    vertical-align: middle !important;
+}
+
+.custome-table caption {
+    background-color: #e8e5e5;
+    color: #2487d6;
+    padding: 5px 10px;
+}
+
+.flag-td {
+    margin-right: 7px;
+}
+
+.table-td + .seprate-vs {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.seprate-vs {
+    font-weight: 700;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #0978c9;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: #2487d6;
+}
+
+.seprate-vs.small {
+    font-weight: 700;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #0978c9;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: #2487d6;
+    vertical-align: middle;
+}
+
+:global {
+
+&
+.tab-cric {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+&
+.tab-cric li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+&
+.tab-cric li a {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #8c8c8c;
+}
+
+&
+.tab-cric li {
+
+&
+.active a,
+
+&
+a:focus,
+
+&
+a:hover {
+    color: #000000;
+    background-color: transparent !important;
+}
+
+}
+}

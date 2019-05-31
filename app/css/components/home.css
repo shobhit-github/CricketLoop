@@ -1,0 +1,220 @@
+.carousel-cric {
+    margin-bottom: 20px;
+}
+
+.panel-cric {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+
+&
+.panel-heading {
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-image: none;
+    border-left: 4px solid #3ca9fc;
+    padding: 20px 15px;
+    font-weight: 600;
+}
+
+&
+.panel-body {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    display: block;
+    position: relative;
+    padding: 15px;
+}
+
+}
+.tab-content {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #bcbcbc;
+    display: block;
+    position: relative;
+    padding: 15px;
+}
+
+.tab-cric {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+.tab-cric li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+.tab-cric li a {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #8c8c8c;
+}
+
+.tab-cric li {
+
+&
+.active a,
+
+&
+a:focus,
+
+&
+a:hover {
+    color: #000000;
+    background-color: transparent !important;
+}
+
+}
+.btn-extra {
+    font-size: 12px;
+    font-weight: 700;
+    color: #3ca9fc;
+}
+
+.cric-pan {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.cric-pan-score {
+    font-weight: 500;
+    text-align: right;
+}
+
+.cric-status-bx {
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    display: block;
+    position: relative;
+    clear: both;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.tab-anger-cric {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+&
+:hover,
+
+&
+:focus {
+    text-decoration: none;
+}
+
+}
+.text-black, .cric-pan-score {
+    color: #000000;
+}
+
+.team-flg {
+    height: 50px;
+    width: 60px;
+}
+
+.carousel-inner .items-circ {
+    max-height: 588px;
+    overflow: hidden;
+}
+
+.headnews-cric {
+    font-weight: 500;
+}
+
+.team_bx .team-flg {
+    height: auto !important;
+}
+
+:global {
+
+&
+.img-flg {
+    width: 100%;
+}
+
+&
+.cric-pan-table {
+    display: table;
+    width: 100%
+}
+
+&
+.cric-pan-tr {
+    display: table-row;
+    position: relative;
+}
+
+&
+.cric-pan-td {
+    display: table-cell;
+    position: relative;
+    padding: 7px;
+    vertical-align: middle;
+}
+
+&
+.content-listing-image {
+
+&
+img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+}
+&
+.box-list {
+    border: 1px solid #8c8c8c;
+}
+
+&
+.sub-title-table {
+    background-color: #bcbcbc;
+}
+
+}
+@media screen and (max-width: 850px) {
+    .resp-fluid {
+        width: 100% !important;
+    }
+
+    .ads-side {
+        display: none;
+    }
+
+    .brand-bx-cric {
+        text-align: center;
+    }
+}

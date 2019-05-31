@@ -1,0 +1,57 @@
+@import '../settings';
+@import '../common/typography';
+@import '../common/card';
+
+.main-section {
+    @apply --card;
+    width: 50%;
+    border-radius: var(--globalRadius);
+}
+
+.header {
+    @apply --title;
+    @apply --subHeading;
+    background: #ed193a;
+    color: #fff;
+}
+
+
+:global {
+
+&
+.modal-container #assignStageContainer .konvajs-content {
+    margin: auto;
+}
+
+&
+.modal-container #assignStageContainer .closeButton {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: .2;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+&
+.modal-container #assignStageContainer .closeButton:hover {
+    opacity: .5
+}
+
+}
+
+
+.list {
+    list-style: none;
+    padding: 16px;
+}
+
